@@ -1,0 +1,94 @@
+.gradient-background {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    animation: moveGradient 10s linear infinite alternate; /* Animation for the motion effect */
+    background: linear-gradient(45deg, #007bff, #ffeb3b);
+    background-size: 400% 400%; /* Increase the size for the gradient animation */
+   }
+  
+  /* Animation keyframes */
+  @keyframes moveGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  
+  .text-body-emphasis, /* Target the class in the heading */
+  .text-body-emphasis + p /* Target the adjacent paragraph */
+  {
+    color: white; /* Change to your desired color */
+  }
+
+  .card-text{
+    font-size: 20px;
+  }
+  
+  .card {
+    display: flex;
+    width: 400px; /* Change to your desired width */
+    height: 500px;  
+   }
+
+   /* Custom CSS */
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Occupy the full height of the parent container */
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Occupy the full height of the card */
+    }
+
+  .card-text {
+    flex-grow: 1; /* Allow the text to take up remaining space */
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+
+  .bg-body-tertiary{
+    background-color: #ACFADF;
+  }
+
+  .page-3 {
+    background-color: #ACFADF;
+    height: 75px;
+  }
+
+  .facebook{
+    height: 35px;
+    background-color: #ffeb3b;
+    border-radius: 50px;
+  }
+
+  .instagram {
+    height: 35px;
+    background-color: #ffeb3b;
+    border-radius: 7px;
+  }
+
+  .album .card {
+    width: 90%; /* Set a percentage-based width for the card */
+    margin: 0 auto; /* Center align the card horizontally */
+    border: 3px solid  #9BE8D8; /* Replace with your desired border color */
+    outline: 2px solid #E2F6CA; /* Replace with your desired highlight color */
+    outline-offset: -2px;
+    transition: outline 0.3s ease-in-out;
+  }
+
+ 
+
+
+
+  
+  
+  
